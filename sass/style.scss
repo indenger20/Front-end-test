@@ -5,10 +5,10 @@
 
 @font-face {
   font-family: 'PTSans-Bold';
-  src: url('../fonts/PTSans-Bold/PTSans-Bold.eot?#iefix') format('embedded-opentype'), 
-  url('../fonts/PTSans-Bold/PTSans-Bold.woff') format('woff'), 
-  url('../fonts/PTSans-Bold/PTSans-Bold.ttf')  format('truetype'), 
-  url('../fonts/PTSans-Bold/PTSans-Bold.svg#PTSans-Bold') format('svg');
+  src: url('fonts/PTSans-Bold/PTSans-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('fonts/PTSans-Bold/PTSans-Bold.woff') format('woff'), 
+  url('fonts/PTSans-Bold/PTSans-Bold.ttf')  format('truetype'), 
+  url('fonts/PTSans-Bold/PTSans-Bold.svg#PTSans-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -221,7 +221,7 @@ $my-color: #333333;
 	padding-left: 17px;
 	&:before {
 		@include before-img(12px, 11px);
-		background: url(../images/likeIco.jpg) no-repeat;
+		background: url(images/likeIco.jpg) no-repeat;
 		top: calc(50% - 5.5px);
 		left: 0;
 	}
@@ -234,7 +234,7 @@ $my-color: #333333;
 	padding-left: 17px;
 	&:before {
 		@include before-img(13px, 13px);
-		background: url(../images/commentIco.jpg) no-repeat;
+		background: url(images/commentIco.jpg) no-repeat;
 		top: calc(50% - 6.5px);
 		left: 0;
 	}
@@ -268,7 +268,7 @@ $my-color: #333333;
 	box-shadow: 0px 2px 19px -6px rgba(0,0,0,0.5);
 	&:before {
 		@include before-img(9px, 10px);
-		background: url(../images/commentArrow.jpg) no-repeat;
+		background: url(images/commentArrow.jpg) no-repeat;
 		top: -10px;
 		left: 10%;
 	}
